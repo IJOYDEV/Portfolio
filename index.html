@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Immah Joy – Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: rgb(156, 136, 175);
+      color: black;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .header-text {
+      max-width: 60%;
+    }
+
+    .header-text h1 {
+      font-size: 2rem;
+    }
+
+    .header-image {
+      max-width: 150px;
+    }
+
+    .header-image img {
+      width: 100%;
+      border-radius: 50%;
+    }
+
+    nav {
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    section {
+      margin-top: 60px;
+    }
+
+    .experience-item {
+      margin-bottom: 20px;
+    }
+
+    .experience-item h4 {
+      margin-bottom: 5px;
+    }
+
+    .experience-item ul {
+      list-style: disc;
+      margin-left: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 60px;
+    }
+
+    @media (max-width: 768px) {
+      .header-content {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .header-text,
+      .header-image {
+        max-width: 100%;
+        text-align: center;
+      }
+
+      .header-image {
+        margin-top: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-content">
+    <div class="header-text">
+      <h1>Immah Joy</h1>
+      <p>Computer Science Student & Aspiring Software Engineer</p>
+    </div>
+    <div class="header-image">
+      <img src="mid.jpeg" alt="Profile Picture">
+    </div>
+  </div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="container">
+  <div class="hero">
+    <h2>Hello! I'm Immah 👋</h2>
+    <p>Passionate about building tech solutions, learning new technologies, and growing as a software engineer.</p>
+  </div>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>Hi! I'm Immah, a Computer Science student passionate about tech solutions. I enjoy exploring Python, building interactive web apps, and creating solutions that impact real-world users. Outside of tech, I love hiking and reading sci-fi books.</p>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="experience-item">
+      <h4>2024 – Present: Software Intern at XYZ Company</h4>
+      <ul>
+        <li>Developed internal tools using Python and Django</li>
+        <li>Optimized database queries and improved performance by 30%</li>
+      </ul>
+    </div>
+    <div class="experience-item">
+      <h4>2023 – 2024: Web Developer – Beauty Shop System</h4>
+      <ul>
+        <li>Created responsive front-end using HTML, CSS, JavaScript</li>
+        <li>Integrated booking and product modules for business efficiency</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:immahjoy789@gmail.com">immahjoy789@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/ijoytech" target="_blank">ijoytech</a></p>
+  </section>
+</div>
+
+<footer>
+  <p>© 2025 Immah Joy | Built with ❤️ and HTML + CSS</p>
+</footer>
+
+</body>
+</html>
